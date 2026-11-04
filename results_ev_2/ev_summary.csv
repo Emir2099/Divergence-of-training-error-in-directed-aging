@@ -1,0 +1,5 @@
+label,sigma,finished,last_cycle,min_ratio,min_ratio_cycle,contact_floor_of_that_target,at_contact,min_source_ratio,E_init,E_max,E_max_cycle,E0_min,E0_max,abs_gain_max,n_contacts_max,max_overlap_max,e_rep_max,min_pair_ratio_any_pair,min_pair_dist_any_pair,collapsed,E_excursion,E0_excursion
+100001,0.5,True,4500,0.26569,4500,0.098168,False,0.28482,0.91225,0.9969,2650,0.60259,0.99873,0.6071,8,0.00075298,3.4511e-07,0.22473,0.024317,False,False,False
+100001,1,True,4500,0.40656,4500,0.19634,False,0.40001,0.91224,0.91224,0,0.48299,0.91224,0.84111,11,0.0012245,1.0619e-06,0.32727,0.024102,False,False,False
+100005,0.5,True,7600,0.22414,7600,0.089917,False,0.15735,0.97032,0.99615,3950,0.69056,0.99721,0.49175,5,0.0023025,2.7517e-06,0.14941,0.031678,False,False,False
+100005,1,True,7600,0.4307,7600,0.17983,False,0.17754,0.97031,1.0147,5350,0.74259,1.0083,0.3625,33,0.0035198,1.0875e-05,0.17754,0.031925,False,False,False

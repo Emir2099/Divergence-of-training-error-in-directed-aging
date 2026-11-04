@@ -1,0 +1,117 @@
+PS C:\Users\capta\Documents\PAPER> python run_production_sweep.py --quick
+QUICK SMOKE TEST MODE -- not real data, just checking it runs.
+2 realizations queued across 16 workers (N=40, dZ=0.5, cycles=60)
+[  21.1 min] 1/2 done (n_targets=1, final error=0.930) -- ETA 21 min
+[  31.0 min] 2/2 done (n_targets=8, final error=0.604) -- ETA 0 min
+
+All done in 31.0 minutes. Results in production_results.jsonl (2 realizations).
+PS C:\Users\capta\Documents\PAPER> python run_production_sweep.py
+ *  History restored 
+
+PS C:\Users\capta\Documents\PAPER> python run_production_sweep.py
+102 realizations queued across 16 workers (N=100, dZ=0.5, cycles=800)
+[  27.6 min] 1/102 done (n_targets=1, final error=0.927) -- ETA 2786 min
+[  28.8 min] 2/102 done (n_targets=1, final error=0.978) -- ETA 1441 min
+[  30.5 min] 3/102 done (n_targets=1, final error=0.674) -- ETA 1008 min
+[  33.1 min] 4/102 done (n_targets=1, final error=0.784) -- ETA 811 min
+[  33.6 min] 5/102 done (n_targets=1, final error=0.930) -- ETA 652 min
+[  38.3 min] 6/102 done (n_targets=2, final error=0.845) -- ETA 613 min
+[  41.4 min] 7/102 done (n_targets=2, final error=1.052) -- ETA 562 min
+[  43.1 min] 8/102 done (n_targets=2, final error=0.880) -- ETA 507 min
+[  45.6 min] 9/102 done (n_targets=2, final error=1.013) -- ETA 471 min
+[  47.0 min] 10/102 done (n_targets=2, final error=1.010) -- ETA 432 min
+[  47.0 min] 11/102 done (n_targets=3, final error=0.698) -- ETA 389 min
+[  48.8 min] 12/102 done (n_targets=1, final error=0.950) -- ETA 366 min
+[  49.4 min] 13/102 done (n_targets=3, final error=1.139) -- ETA 338 min
+[  54.4 min] 14/102 done (n_targets=3, final error=0.981) -- ETA 342 min
+[  58.7 min] 15/102 done (n_targets=2, final error=1.087) -- ETA 341 min
+[  60.8 min] 16/102 done (n_targets=3, final error=0.965) -- ETA 327 min
+[  77.9 min] 17/102 done (n_targets=3, final error=0.967) -- ETA 390 min
+[  80.7 min] 18/102 done (n_targets=4, final error=0.979) -- ETA 376 min
+[  80.9 min] 19/102 done (n_targets=3, final error=0.745) -- ETA 353 min
+[  89.1 min] 20/102 done (n_targets=4, final error=0.956) -- ETA 365 min
+[  91.8 min] 21/102 done (n_targets=4, final error=0.886) -- ETA 354 min
+[  93.7 min] 22/102 done (n_targets=5, final error=0.757) -- ETA 341 min
+[  97.2 min] 23/102 done (n_targets=5, final error=0.811) -- ETA 334 min
+[  99.5 min] 24/102 done (n_targets=4, final error=0.761) -- ETA 323 min
+[ 102.3 min] 25/102 done (n_targets=5, final error=0.952) -- ETA 315 min
+[ 103.1 min] 26/102 done (n_targets=5, final error=0.981) -- ETA 301 min
+[ 108.4 min] 27/102 done (n_targets=5, final error=0.863) -- ETA 301 min
+[ 111.5 min] 28/102 done (n_targets=5, final error=1.035) -- ETA 295 min
+[ 114.6 min] 29/102 done (n_targets=4, final error=0.933) -- ETA 288 min
+[ 117.3 min] 30/102 done (n_targets=4, final error=0.418) -- ETA 281 min
+[ 123.6 min] 31/102 done (n_targets=6, final error=1.212) -- ETA 283 min
+[ 129.0 min] 32/102 done (n_targets=6, final error=0.913) -- ETA 282 min
+[ 131.2 min] 33/102 done (n_targets=6, final error=0.957) -- ETA 274 min
+[ 133.1 min] 34/102 done (n_targets=6, final error=0.954) -- ETA 266 min
+[ 134.9 min] 35/102 done (n_targets=6, final error=0.824) -- ETA 258 min
+[ 140.9 min] 36/102 done (n_targets=6, final error=0.919) -- ETA 258 min
+[ 142.3 min] 37/102 done (n_targets=6, final error=1.028) -- ETA 250 min
+[ 152.2 min] 38/102 done (n_targets=6, final error=1.112) -- ETA 256 min
+[ 158.0 min] 39/102 done (n_targets=6, final error=0.997) -- ETA 255 min
+[ 168.5 min] 40/102 done (n_targets=7, final error=1.017) -- ETA 261 min
+[ 172.2 min] 41/102 done (n_targets=6, final error=0.966) -- ETA 256 min
+[ 176.7 min] 42/102 done (n_targets=6, final error=0.910) -- ETA 252 min
+[ 179.6 min] 43/102 done (n_targets=6, final error=0.975) -- ETA 246 min
+[ 180.7 min] 44/102 done (n_targets=7, final error=0.912) -- ETA 238 min
+[ 182.5 min] 45/102 done (n_targets=7, final error=1.085) -- ETA 231 min
+[ 183.4 min] 46/102 done (n_targets=7, final error=1.019) -- ETA 223 min
+[ 195.3 min] 47/102 done (n_targets=7, final error=1.272) -- ETA 229 min
+[ 197.2 min] 48/102 done (n_targets=7, final error=1.012) -- ETA 222 min
+[ 197.8 min] 49/102 done (n_targets=7, final error=0.884) -- ETA 214 min
+[ 198.6 min] 50/102 done (n_targets=7, final error=0.913) -- ETA 207 min
+[ 201.2 min] 51/102 done (n_targets=7, final error=1.040) -- ETA 201 min
+[ 208.5 min] 52/102 done (n_targets=7, final error=0.886) -- ETA 200 min
+[ 210.4 min] 53/102 done (n_targets=8, final error=0.604) -- ETA 195 min
+[ 211.6 min] 54/102 done (n_targets=7, final error=1.475) -- ETA 188 min
+[ 212.5 min] 55/102 done (n_targets=7, final error=0.898) -- ETA 182 min
+[ 223.1 min] 56/102 done (n_targets=8, final error=0.993) -- ETA 183 min
+[ 230.5 min] 57/102 done (n_targets=8, final error=0.858) -- ETA 182 min
+[ 233.1 min] 58/102 done (n_targets=8, final error=0.994) -- ETA 177 min
+[ 233.2 min] 59/102 done (n_targets=8, final error=0.862) -- ETA 170 min
+[ 240.4 min] 60/102 done (n_targets=8, final error=0.999) -- ETA 168 min
+[ 242.1 min] 61/102 done (n_targets=8, final error=1.127) -- ETA 163 min
+[ 253.7 min] 62/102 done (n_targets=8, final error=1.044) -- ETA 164 min
+[ 256.6 min] 63/102 done (n_targets=8, final error=0.931) -- ETA 159 min
+[ 258.9 min] 64/102 done (n_targets=8, final error=1.048) -- ETA 154 min
+[ 259.6 min] 65/102 done (n_targets=9, final error=0.928) -- ETA 148 min
+[ 263.2 min] 66/102 done (n_targets=9, final error=0.978) -- ETA 144 min
+[ 265.5 min] 67/102 done (n_targets=9, final error=0.990) -- ETA 139 min
+[ 267.3 min] 68/102 done (n_targets=8, final error=1.014) -- ETA 134 min
+[ 270.4 min] 69/102 done (n_targets=9, final error=1.113) -- ETA 129 min
+[ 271.9 min] 70/102 done (n_targets=8, final error=0.876) -- ETA 124 min
+[ 276.3 min] 71/102 done (n_targets=9, final error=0.801) -- ETA 121 min
+[ 278.6 min] 72/102 done (n_targets=9, final error=0.874) -- ETA 116 min
+[ 286.7 min] 73/102 done (n_targets=9, final error=0.978) -- ETA 114 min
+[ 302.9 min] 74/102 done (n_targets=9, final error=0.783) -- ETA 115 min
+[ 304.7 min] 75/102 done (n_targets=9, final error=1.123) -- ETA 110 min
+[ 305.5 min] 76/102 done (n_targets=9, final error=0.981) -- ETA 105 min
+[ 309.6 min] 77/102 done (n_targets=9, final error=1.050) -- ETA 101 min
+[ 313.6 min] 78/102 done (n_targets=9, final error=0.992) -- ETA 96 min
+[ 319.7 min] 79/102 done (n_targets=10, final error=0.888) -- ETA 93 min
+[ 319.8 min] 80/102 done (n_targets=10, final error=0.885) -- ETA 88 min
+[ 320.7 min] 81/102 done (n_targets=10, final error=0.909) -- ETA 83 min
+[ 332.0 min] 82/102 done (n_targets=10, final error=0.911) -- ETA 81 min
+[ 332.5 min] 83/102 done (n_targets=10, final error=1.501) -- ETA 76 min
+[ 345.4 min] 84/102 done (n_targets=10, final error=0.994) -- ETA 74 min
+[ 348.9 min] 85/102 done (n_targets=10, final error=1.084) -- ETA 70 min
+[ 349.9 min] 86/102 done (n_targets=10, final error=0.872) -- ETA 65 min
+[ 351.5 min] 87/102 done (n_targets=10, final error=0.857) -- ETA 61 min
+[ 371.0 min] 88/102 done (n_targets=10, final error=0.932) -- ETA 59 min
+[ 375.8 min] 89/102 done (n_targets=10, final error=0.947) -- ETA 55 min
+[ 381.1 min] 90/102 done (n_targets=10, final error=0.963) -- ETA 51 min
+[ 383.7 min] 91/102 done (n_targets=12, final error=0.997) -- ETA 46 min
+[ 384.2 min] 92/102 done (n_targets=12, final error=1.004) -- ETA 42 min
+[ 384.6 min] 93/102 done (n_targets=12, final error=0.990) -- ETA 37 min
+[ 390.2 min] 94/102 done (n_targets=12, final error=0.853) -- ETA 33 min
+[ 402.7 min] 95/102 done (n_targets=15, final error=0.943) -- ETA 30 min
+[ 403.3 min] 96/102 done (n_targets=15, final error=1.004) -- ETA 25 min
+[ 404.5 min] 97/102 done (n_targets=15, final error=1.012) -- ETA 21 min
+[ 411.9 min] 98/102 done (n_targets=15, final error=0.978) -- ETA 17 min
+[ 412.7 min] 99/102 done (n_targets=12, final error=0.941) -- ETA 13 min
+[ 417.8 min] 100/102 done (n_targets=15, final error=1.133) -- ETA 8 min
+[ 421.1 min] 101/102 done (n_targets=12, final error=1.000) -- ETA 4 min
+[ 423.0 min] 102/102 done (n_targets=15, final error=0.997) -- ETA 0 min
+
+All done in 423.0 minutes. Results in production_results.jsonl (102 realizations).
+PS C:\Users\capta\Documents\PAPER> 

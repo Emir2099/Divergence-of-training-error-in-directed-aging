@@ -1,0 +1,46 @@
+[
+  {
+    "dZ": 0.3,
+    "delta": 0.06,
+    "n_realizations": 3,
+    "error_mean": 1.0983033126149957,
+    "error_sem": 0.11182726264714529,
+    "converged_fraction": 0.0,
+    "omega_trained_mean": 0.15640780217575162,
+    "omega_next_mean": 0.1579522495357907,
+    "overlap_trained_mean": 0.8191947664700909
+  },
+  {
+    "dZ": 0.3,
+    "delta": 0.17,
+    "n_realizations": 3,
+    "error_mean": 1.0389459852582708,
+    "error_sem": 0.030570861613121617,
+    "converged_fraction": 0.0,
+    "omega_trained_mean": 0.14336949537735758,
+    "omega_next_mean": 0.14664205811032863,
+    "overlap_trained_mean": 0.5054053756651634
+  },
+  {
+    "dZ": 0.8,
+    "delta": 0.06,
+    "n_realizations": 3,
+    "error_mean": 1.1971993248991641,
+    "error_sem": 0.2694106901981975,
+    "converged_fraction": 0.0,
+    "omega_trained_mean": 0.1862020221095333,
+    "omega_next_mean": 0.21983509999999773,
+    "overlap_trained_mean": 0.6343378149322939
+  },
+  {
+    "dZ": 0.8,
+    "delta": 0.17,
+    "n_realizations": 3,
+    "error_mean": 0.9881298484207887,
+    "error_sem": 0.04219185592178654,
+    "converged_fraction": 0.0,
+    "omega_trained_mean": 0.27999572699144926,
+    "omega_next_mean": 0.28817067044211137,
+    "overlap_trained_mean": 0.7588396134027708
+  }
+]

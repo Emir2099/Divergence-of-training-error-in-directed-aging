@@ -1,0 +1,77 @@
+[
+ {
+  "net": "1000005",
+  "K": 3,
+  "n_cycles": 800,
+  "gamma": 0.012,
+  "window": 20,
+  "lambda_mean_all": [
+   0.00021894681656012318,
+   0.00622666353362624,
+   0.0030240220015120734
+  ],
+  "lambda1_window_max": 0.0026216475696857625,
+  "lambda1_window_max_cycle": 517,
+  "lambda1_window_min": -0.004157135628350598,
+  "frac_windows_lambda1_positive": 0.967989756722151,
+  "E_max": 20.40354591890622,
+  "E_max_over_init": 22.14582830475512,
+  "E_max_cycle": 540,
+  "E0_max": 1.0212642224759776,
+  "min_ratio": 0.001980813980886623,
+  "min_ratio_cycle": 800,
+  "lambda1_mean_100_cycles_before_Emax": 0.0005588625997965097,
+  "lam_max_S_max": 1.4169527622174416,
+  "naive_growth_max": 0.040027465172874394
+ },
+ {
+  "net": "200005",
+  "K": 3,
+  "n_cycles": 400,
+  "gamma": 0.012,
+  "window": 20,
+  "lambda_mean_all": [
+   0.0006242453960456833,
+   -1.004438840992936e-05,
+   -0.00011302868892064914
+  ],
+  "lambda1_window_max": 0.01101889146385224,
+  "lambda1_window_max_cycle": 56,
+  "lambda1_window_min": -0.0019483447471171475,
+  "frac_windows_lambda1_positive": 0.2545931758530184,
+  "E_max": 8.08741133422696,
+  "E_max_over_init": 6.492447401592645,
+  "E_max_cycle": 120,
+  "E0_max": 8.34821381855226,
+  "min_ratio": 0.876049771423994,
+  "min_ratio_cycle": 400,
+  "lambda1_mean_100_cycles_before_Emax": 0.0038903273880939375,
+  "lam_max_S_max": 2.0382021704652438,
+  "naive_growth_max": 0.09966740836466341
+ },
+ {
+  "net": "700000",
+  "K": 3,
+  "n_cycles": 800,
+  "gamma": 0.012,
+  "window": 20,
+  "lambda_mean_all": [
+   0.006253107851353305,
+   0.0019573662554619804,
+   0.0036139612828405693
+  ],
+  "lambda1_window_max": 0.1397933560966391,
+  "lambda1_window_max_cycle": 94,
+  "lambda1_window_min": -0.005053666766245102,
+  "frac_windows_lambda1_positive": 0.8040973111395646,
+  "E_max": 1.0258996237197746,
+  "E_max_over_init": 1.0361068857023887,
+  "E_max_cycle": 740,
+  "E0_max": 1.023102763378274,
+  "min_ratio": 0.6611880344871891,
+  "min_ratio_cycle": 740,
+  "lambda1_mean_100_cycles_before_Emax": 0.0014534637954818053,
+  "lam_max_S_max": 2.2575572468659244,
+  "naive_growth_max": 0.12072549569912874
+ }
+]
